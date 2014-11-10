@@ -1,4 +1,4 @@
-﻿namespace com.romiox.Collections.Tests
+﻿namespace InterfaceTests.Net
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
