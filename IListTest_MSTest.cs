@@ -5,12 +5,12 @@ namespace InterfaceTests.Net
     using System.Collections.Generic;
 
     [TestClass]
-    public abstract class IListTest
+    public abstract class IListTest_MSTest
     {
         #region Derived Classes
 
         [TestClass]
-        public class ACollectionTest : IListTest
+        public class ACollectionTest : IListTest_MSTest
         {
             protected override IList<object> CreateTarget()
             {
@@ -19,7 +19,7 @@ namespace InterfaceTests.Net
         }
 
         [TestClass]
-        public class BCollectionTest : IListTest
+        public class BCollectionTest : IListTest_MSTest
         {
             protected override IList<object> CreateTarget()
             {
