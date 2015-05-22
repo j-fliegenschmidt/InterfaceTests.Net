@@ -1,3 +1,6 @@
+Copied and ported to MS Test Framework.
+
+---
 # Interface Tests for .NET
 
 I've created this repository because I needed a default set of tests for the
